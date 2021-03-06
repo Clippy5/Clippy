@@ -4,7 +4,20 @@
         <title>@ViewData["Title"] - Clippy</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="/css/main.css" />
     </head>
+    <div class="navbar">     
+        <a asp-page="Bookmarks" class="clippy-logo"><img src="/images/resources/logo.png"></a>
+        <a asp-page="Bookmarks" class="nav-links">Explore</a>
+        <a asp-page="Following" class="nav-links">Following</a>
+        <a asp-page="~" class="nav-links">About</a>
+        <form class="searchbar">
+            <input type="text" name="search-term" placeholder="Search" required>
+            @* <img class="search-icon" src="/images/resources/search.png"> *@
+        </form>        
+        <img src="/images/resources/add.png" class="add-icon">
+        <img src="/images/resources/rando.jpg" class="avatar" alt="Randy Rando"> 
+    </div>
     <body>
         @RenderBody()
     </body>

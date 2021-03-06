@@ -1,0 +1,155 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Large displays */
+@media (min-width: 500px) {
+  .card {
+    width: 468px;
+    margin: 16px auto 16px auto;
+  }
+}
+
+/* Small displays */
+@media (max-width: 500px) {
+  .card {
+    margin: 16px;
+  }
+}
+
+.card {
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.github-list li {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.github-list li a button {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    border-radius: 8px;
+    border-color: rgba(0,0,0,0);
+    text-align: left;
+    margin: 5px;
+}
+
+.github-list li a button:hover {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 8px;
+    border-color: rgba(0,0,0,0.05);
+    text-align: left;
+    margin: 5px;
+}
+
+.github-list li a {
+  text-decoration: none;
+}
+
+.source-code-button a button {
+    border-radius: 3px;
+    width: 120px;
+    height: 35px;
+    background-color: rgba(0,0,0,0);
+    text-transform: uppercase;
+    font-weight: bold;
+    border-color: rgba(0,0,0,0.35);
+}
+
+.source-code-button a button:hover {
+    border-radius: 3px;
+    width: 120px;
+    height: 35px;
+    background-color: rgba(0,0,0,0.05);
+    text-transform: uppercase;
+    font-weight: bold;
+    border-color: rgba(0,0,0,0.60);
+}
+
+/*--------------------------------*/
+
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.clippy-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  scale: 65%;
+}
+
+.clippy-logo img {
+  transform: scale(1);
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(1);
+  float: left;
+}
+
+.nav-links {
+  color: black;
+  margin: 0px 15px;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  margin: 0px 15px;
+  color:rgba(0, 0, 0, 0.30);
+  text-decoration: none;
+}
+
+.searchbar {
+  width: 100%;
+}
+
+.searchbar input[type=text] {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.10);
+  margin: 0px 20px;
+  padding-left: 40px;
+  border: 0;
+  border-radius: 30px;
+  background-image: url('/images/resources/search.png');
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 35px;
+}
+
+.search-icon {
+  color: black;
+  scale: 15%;
+}
+
+.add-icon {
+  color: black;
+  border-radius: 100%;
+  scale: 10%;
+}
+
+.add-icon:hover {
+  background-color: rgba(0, 0, 0, 0.10);
+  transition: ease-out;
+  transition-duration: 1s;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin: 0px 20px;
+}
