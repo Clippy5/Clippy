@@ -113,20 +113,22 @@
 
 .searchbar {
   width: 100%;
+  margin: 0px 20px;
+  padding: 0px 40px 0px 0px;
 }
 
-.searchbar input[type=text] {
+.searchbar input {
+  font-size: 15px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.10);
-  margin: 0px 20px;
-  padding-left: 40px;
+  height: 35px;
   border: 0;
-  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.10);
   background-image: url('/images/resources/search.png');
-  background-position: 0;
+  background-position: 5px;
+  padding-left: 40px;
+  border-radius: 30px;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 35px;
 }
 
 .search-icon {
@@ -137,7 +139,8 @@
 .add-icon {
   color: black;
   border-radius: 100%;
-  scale: 10%;
+  height: 40px;
+  width: 40px;
 }
 
 .add-icon:hover {
